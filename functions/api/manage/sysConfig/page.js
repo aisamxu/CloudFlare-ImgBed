@@ -53,7 +53,7 @@ export async function getPageConfig(db, env) {
         {
             id: 'siteTitle',
             label: '网站标题',
-            placeholder: 'Sanyue ImgHub',
+            placeholder: 'X Drive',
             category: '全局设置',
         },
         {
@@ -64,7 +64,7 @@ export async function getPageConfig(db, env) {
         {
             id: 'ownerName',
             label: '图床名称',
-            placeholder: 'Sanyue ImgHub',
+            placeholder: 'X Drive',
             category: '全局设置',
         },
         {
@@ -75,7 +75,7 @@ export async function getPageConfig(db, env) {
         {
             id: 'logoLink',
             label: 'Logo跳转链接',
-            placeholder: 'https://github.com/MarSeventh/CloudFlare-ImgBed',
+            placeholder: 'https://github.com/aisamxu/CloudFlare-ImgBed',
             tooltip: '点击Logo时跳转的链接，留空则使用默认GitHub链接',
             category: '全局设置',
         },
